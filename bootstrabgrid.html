@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <script> alert ("welcome to bs alert");
+   </script>  -->
+    <div class="alert alert-success">welcome to bs alert</div>
+    <div class="card-header" style="text-align: center;">
+        <span class="alert alert-info">HOME </span>
+        <span class="alert alert-primary">ABOUT </span>
+        <span class="alert alert-warning">BREAKFAST </span>
+        <span class="alert alert-danger">LUNCH </span>
+        <span class="alert alert-dark">DINNER</span>
+    </div>
+    <hr>
+    <br>
+    <button class="btn btn-info">Add to cart<span class="badge bg-dark">NEW MESSAGE</span></button>
+
+
+    <button class="btn btn-outline-primary">DORUSTREE</button>
+    <br>
+
+    <button class="btn btn-outline-danger btn-lg">10 d </button>
+    <hr>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" data-bs-interval="1000000">
+            <div class="carousel-fade active">
+                <img src="image.png" class="d-block" height="100px" alt="My office">
+            </div>
+
+            <div class="carousel-fade">
+                <img src="" class="d-block  alt=" empty">
+            </div>
+
+            <div class="carousel-fade">
+                <img src="image1.jpeg" class="d-block" alt="again office">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="bg-light"> Column1</div>
+            </div>
+            <div class="col">
+                <div class="bg-dark"> Column2</div>
+            </div>
+            <div class="col">
+                <div class="bg-success"> Column3</div>
+            </div>
+            <div class="col">
+                <div class="bg-warning"> Column4</div>
+            </div>
+            <div class="col">
+                <div class="bg-danger"> Column5</div>
+            </div>
+            <div class="col">
+                <div class="bg-info"> Column6</div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <hr>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col align-self-start">
+                    (go to left) LEFT
+                </div>
+                <div class="col align-self-center">
+                    (center)MIDDLE
+                </div>
+                <div class="col align-self-end">
+                    (last)END
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <hr>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col algin-self-start">
+                    <img src="image.png" height="20px">
+                </div>
+                <div class="col align-self-center">
+                    <img src="image.png" height="20px">
+                </div>
+                <div class="col algin-self-end">
+
+
+                    <img src="image.png" height="20px">
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile"
+            viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+            <path
+                d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+        </svg>
+        <hr>
+        <br>
+        <div><img src="download.jpeg" class="img-thumbnail" alt="i'm a developher"> </div>
+    </div>
+    <hr>
+    <hr>
+    <p>DATE 31/05/2022</p>
+    <h2>Using Carousel</h2>
+
+    <hr>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image.png" height="250px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <hr>
+
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pngtree-simple-e-commerce-jobs-career-image_21503.jpg" alt="Los Angeles"
+                    class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="pngtree-program-development-programming-hd-background-image_161259.jpg" alt="Chicago"
+                    class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="pngtree-logistics-industry-and-freight-profit-analyzing-image_1091631.jpg" alt="New York"
+                    class="d-block w-100">
+                <div class="carousel-caption d-none d-sm-block">
+                    <img src="image.png" height="100px" alt="">
+                    <h5>i'm a developher BRO</h5>
+                        <p>USE THE CAPTIONS </p>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</body>
+
+</html>
